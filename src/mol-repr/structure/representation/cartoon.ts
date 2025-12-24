@@ -79,7 +79,7 @@ export const CartoonRepresentationProvider = StructureRepresentationProvider({
     getParams: getCartoonParams,
     defaultValues: PD.getDefaultValues(CartoonParams),
     defaultColorTheme: { name: 'chain-id' },
-    defaultSizeTheme: { name: 'uniform' },
+    defaultSizeTheme: { name: 'uncertainty' },
     isApplicable: (structure: Structure) => structure.polymerResidueCount > 0,
     ensureCustomProperties: {
         attach: async (ctx: CustomProperty.Context, structure: Structure) => {
